@@ -1,10 +1,9 @@
 <h1 align="center">Curso em video: HTML e CSS</h1>
 <p align="center">Aprendendo HTML5 e CSS3 no canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Curso em vídeo</a> com o Prof. Gustavo Guanabara</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/84051161/136304704-379ba373-5430-4982-a898-c80cc9d9a148.png" width="100" title="hover text">
-<img src="https://user-images.githubusercontent.com/84051161/136304815-7fc0a6f8-c266-4b88-8f02-c29c46e9168b.png" width="100" title="hover text"></p>
+<p align="center"><img src="https://github.com/AlexDimas238/Html5_Css3/blob/master/curso-html5-pacote01/projeto-glass-html5/_imagens/logo-html-css.png" width="300" title="hover text"/></p>
 
-<hr>
+<hr>  
   
   <h3>Clique abaixo para direcionar ao codigo da pagina inicial</h3>
 	<ul>
