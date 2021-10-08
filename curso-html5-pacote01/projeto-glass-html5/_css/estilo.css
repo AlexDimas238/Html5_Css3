@@ -1,5 +1,12 @@
 @charset "UTF-8";
+/**Importando fontes do google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+/*Definir fonte propria*/
+@font-face {
+	font-family: "FonteLogo";
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 body{
 	background-color: #dddddd;
 	color: rgba(0,0,0,1);
@@ -23,8 +30,31 @@ p{
 header#cabecalho img#icone {
 	position: absolute;
 	left: 780px;
-	top: 40px:
-	
+	top: 70px;
+}
+
+/* Separando o cabeçalho com uma linha */
+header#cabecalho {
+	border-bottom: 1px #606060 solid; 
+	height: 150px;
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px; /*Coloca imagem como fundo*/
+}
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30px;
+	color: #696868;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /*Colocar sombra*/		
+	padding: 0px; /*Espaço interno "Margem"*/
+	margin-bottom: 0px; /*Ajustando somente a margem inferior*/
+}
+
+header#cabecalho h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	color: #888888;
+	padding: 0px;
+	margin-top: 0px;/*Ajustando a margem superior*/
 }
 
 /* Formatação de imagens com legendas */		
@@ -66,7 +96,7 @@ nav#menu{
 nav#menu ul{
 	list-style: none; /*Tirar as marcações */
 	text-transform: uppercase; /* Deixar letras maiusculas*/
-	position: absolute; /* Deixa o menu livre  para mover em todo site */
+	position: absolute; /* Deixa o menu livre para mover em todo site */
 	top: -20px; /*coloca o menu no top */
 	left: 300px; /* direciona para o left */
 }
@@ -82,7 +112,6 @@ nav#menu li {
 /* efeitos quando passar o mouse no menu */
 nav#menu li:hover {
 	background-color: #606060;
-	
 }
 
 nav#menu h1 {
@@ -97,4 +126,27 @@ nav#menu a {
 
 nav#menu a:hover {
 	color: #ffffff; /* muda a cor da letra qd passar o mouse*/
+}
+
+section#corpo {
+	display: block; /*Mostrar section como um bloco*/
+	width: 520px; /*Definir largura*/
+	float: left; /*Deixa o bloco flutuando pelo lado escolhido*/
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+aside#lateral {
+	display: block;
+	width: 350px;
+	float: right;
+}
+
+footer#rodape {
+	clear: both; /*limpa as configurações dos lados e o rodape fica fora da divisão lateral*/
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align: center;
 }
