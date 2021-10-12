@@ -22,7 +22,7 @@ div#interface {
 	padding: 10px; /* Espaço interno do objeto */
 }	
 		
-p{
+p {
 	text-align: justify;
 	text-indent: 50px;
 }
@@ -98,12 +98,12 @@ figure.foto-legenda:hover figcaption{
 }
 /* Formatação de Menu */
 
-nav#menu{
+nav#menu {
 	display: block; /* Flutuar o menu */
-	
+
 }
 
-nav#menu ul{
+nav#menu ul {
 	list-style: none; /*Tirar as marcações */
 	text-transform: uppercase; /* Deixar letras maiusculas*/
 	position: absolute; /* Deixa o menu livre para mover em todo site */
